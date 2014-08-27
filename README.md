@@ -46,5 +46,9 @@ Currently, the topology is executed using `LocalCluster` only. We need to execut
 	storm jar target/deck36-idempotent-counter-0.0.1-SNAPSHOT-standalone.jar deck36.IdempotentCounterTopology
 
 
+## Other code
+
+- Uses code from [epokmedia/storm-node-multilang](https://github.com/epokmedia/storm-node-multilang) for the Node.js bolt. 
+- Check [our storm fork](https://github.com/DECK36/incubator-storm/tree/storm-kafka-spout-with-offset) for the patched `KafkaSpout` and `KafkaOffsetWrapperScheme`.   
 
 
